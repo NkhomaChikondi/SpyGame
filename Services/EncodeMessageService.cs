@@ -19,12 +19,12 @@ namespace SpyGame.Services
 
             foreach (char c in message)
             {
-                // check if
+                // check if c is a digit
                 if (char.IsDigit(c))
                 {
                     // If the character is a digit, apply the mapping
-                    int digit = c - '0';
-                    encodedMessage.Append(numberMapping[digit]);
+                    int number = c - '0';
+                    encodedMessage.Append(numberMapping[number]);
                 }
                 else
                 {
