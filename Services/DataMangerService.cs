@@ -22,8 +22,9 @@ namespace SpyGame.Services
                 if (File.Exists(file))
                     // read file content
                     return File.ReadAllText(file);
+                
                 else
-                    Console.WriteLine("Error: File not found");
+                    Console.WriteLine("Error: File not found");                
             }
             else
             {
