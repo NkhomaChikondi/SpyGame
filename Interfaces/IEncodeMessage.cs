@@ -4,13 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SpyGame
+namespace SpyGame.Interfaces
 {
-    public class Program
+    public interface IEncodeMessage
     {
-        static void Main(string[] args)
-        {
 
-        }
+        string Encoding(string message);
     }
 }
