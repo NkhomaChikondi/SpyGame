@@ -10,5 +10,6 @@ namespace SpyGame.Interfaces
     {
 
         string Encoding(string message);
+        void displayMessage(string message);
     }
 }

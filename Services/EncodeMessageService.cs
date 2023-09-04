@@ -9,6 +9,12 @@ namespace SpyGame.Services
 {
     public class EncodeMessageService : IEncodeMessage
     {
+        public void displayMessage(string message)
+        {
+            Console.WriteLine("Your encoded message:");
+            Console.WriteLine(message);
+        }
+
         public string Encoding(string message)
         {
             // Define the digits to be used for "Jump the Five"
